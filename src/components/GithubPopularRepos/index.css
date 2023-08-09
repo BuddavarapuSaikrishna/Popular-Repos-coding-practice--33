@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.GithubRepo-Container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-heading {
+  font-family: Lobster;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.LanguageList-Container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.RepositoryList-Container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-image {
+  width: 250px;
+}
+
+.error-message {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .main-heading {
+    font-size: 40px;
+  }
+}
